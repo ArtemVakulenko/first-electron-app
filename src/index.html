@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Randomizer App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="сontainer">
+            <div class="inputs">
+                <p>Welcome to my randomizer app,<br> it will generate a random sequence of numbers between your min and max numbers</p>
+                <p>Enter your min number</p>
+                <input type="text" value="" class="inputMin">
+                <p>Enter your max number</p>
+                <input type="text" value="" class="inputMax">
+                <p class="validationMessage"></p>
+            </div>
+            <div class="buttons">
+                <input type="button" value="generate" class="generateButtonFirst">
+                <input type="button" value="generate" class="generateButtonSecond hide">
+                <p class = 'resultMsg'></p>
+                <p class="endMessage"></p>
+                <input type="button" value="reset" class="resetButton">
+            </div>
+    </div>
+    <script src="render.js"></script>
+</body>
+</html>
